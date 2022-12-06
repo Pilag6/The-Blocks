@@ -20,7 +20,7 @@
 # The-Blocks
 
 <h2>NAVBAR</h2>
-
+<div align="center">
 #001
 
 ![image](https://user-images.githubusercontent.com/79191808/205922061-961648d7-c1cf-4708-9b53-96dc492595d0.png)
@@ -28,3 +28,5 @@
 #002
 
 ![image](https://user-images.githubusercontent.com/79191808/205922590-d47f146b-df9e-4fe0-b9a6-d2b1df18a7d8.png)
+
+</div>
