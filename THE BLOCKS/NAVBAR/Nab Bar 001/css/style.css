@@ -1,0 +1,103 @@
+/*
+
+IMPORTANT: 
+
+Install
+1) Google Font
+2) FontAwesome
+
+*/
+
+:root {
+    --colorText__Nav--001: #636363;
+    --colorTextHover__Nav--001: #088178;
+}
+
+
+/* ===== NAVBAR Starts ===== */
+
+.container__nav--001 {
+    display: flex;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__nav--001 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 1rem;
+}
+
+
+.navbar--menu__nav--001 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: inherit;
+}
+
+.navbar__nav--001 li {
+    padding: 0 1.2rem;
+    position: relative;
+}
+
+.navbar__nav--001 li a {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--colorText__Nav--001);
+}
+
+/* Hover, Active Link & After effect */
+
+.navbar__nav--001 li a:hover,
+.navbar__nav--001 li a.active {
+    color: var(--colorTextHover__Nav--001); /*Green*/
+}
+
+.navbar__nav--001 li a::after {
+    content: "";
+    position: absolute;
+    left: 1rem;
+    bottom: -0.25rem;
+
+    transition: 0.5s;
+    
+    width: 0%;
+    height: 0.2rem;
+    background-color: var(--colorTextHover__Nav--001);
+}
+
+.navbar__nav--001 li a.active::after,
+.navbar__nav--001 li a:hover::after {
+    content: "";
+    position: absolute;
+    left: 1.2rem;
+    bottom: -0.25rem;
+
+    width: 30%;
+}
+
+/* Shopping Bag */
+
+.fa-shopping-bag {
+    font-size: 1.2rem;
+    color: var(--colorTextHover__Nav--001);
+    border: 0.125rem solid var(--colorTextHover__Nav--001);
+    padding: 0.7rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.fa-shopping-bag:hover {
+    color: #fff;
+    border: 0.125rem solid #fff;
+    background-color: var(--colorTextHover__Nav--001);
+}
+
+/* End Shopping Bag */
+
+/* ===== NAVBAR Ends ===== */
