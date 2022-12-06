@@ -18,3 +18,14 @@
 <br />
 
 # The-Blocks
+
+<h2>NAVBAR</h2>
+
+#001
+
+![image](https://user-images.githubusercontent.com/79191808/205922061-961648d7-c1cf-4708-9b53-96dc492595d0.png)
+
+#002
+
+![image](https://user-images.githubusercontent.com/79191808/205922187-d643ee9e-a478-4006-8d20-193dbcf87e21.png)
+
