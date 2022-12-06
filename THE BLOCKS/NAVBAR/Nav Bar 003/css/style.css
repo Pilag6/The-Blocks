@@ -1,0 +1,64 @@
+/*
+
+IMPORTANT: 
+
+Install
+1) Google Font
+2) FontAwesome
+
+*/
+
+:root {
+    --colorText__Nav--003: #ed1b2e;
+
+}
+
+/* ===== NAVBAR Starts ===== */
+
+.navbar__nav--003 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+
+    width: 100vw;
+    
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar--menu__nav--003 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
+}
+
+.navbar--menu__nav--003 li a {
+    color: #fff;
+    background-color: var(--colorText__Nav--003);
+
+    padding: 1rem;
+    margin: 0 0.3rem;
+
+    box-shadow: rgba(0, 0, 0, 0.19) 5px 5px 5px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+    transition: 0.3s ease-in;
+}
+
+.navbar--menu__nav--003 li a:hover {
+    color: var(--colorText__Nav--003);
+    background-color: #fff;
+    font-weight: bold;
+    border-top: 0.3rem solid var(--colorText__Nav--003);
+}
+
+.navbar--menu__nav--003 li.menu--active a {
+    color: var(--colorText__Nav--003);
+    background-color: #fff;
+    border-top: 5px solid var(--colorText__Nav--003);
+    font-weight: bold;
+}
+
+/* ===== NAVBAR Ends ===== */
