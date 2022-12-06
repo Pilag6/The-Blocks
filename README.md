@@ -27,5 +27,4 @@
 
 #002
 
-![image](https://user-images.githubusercontent.com/79191808/205922187-d643ee9e-a478-4006-8d20-193dbcf87e21.png)
-
+![image](https://user-images.githubusercontent.com/79191808/205922590-d47f146b-df9e-4fe0-b9a6-d2b1df18a7d8.png)
