@@ -1,0 +1,72 @@
+/*
+IMPORTANT: 
+Install
+1) Google Font
+2) FontAwesome
+*/
+
+:root {
+    --colorText__Nav--002: #5663586;
+    --colorBg__Nav--002: #5663586c;
+}
+
+
+/* ===== NAVBAR Starts ===== */
+
+body {
+    background-image: url("https://media.gq-magazin.de/photos/603d1b8f4d7b65b889d7319b/master/pass/peaky-blinders-taschenuhr-mode-uhren-aufm.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Delet Body Tag. It's only an example*/
+
+.container__nav--002 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    width: 100%;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+
+.navbar__nav--002 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.navbar--menu__nav--002 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar--menu__nav--002 li {
+    line-height: 5rem;
+    text-align: center;
+    background-color: var(--colorBg__Nav--002);
+}
+
+.navbar--menu__nav--002 li a {
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    padding: 0 2rem;
+
+    transition:  0.5s;
+}
+
+.navbar--menu__nav--002 li a:hover,
+.navbar--menu__nav--002 li a.active {
+    background: #fff;
+    color: var(--colorText__Nav--002);
+} 
+
+/* ===== NAVBAR Ends ===== */
