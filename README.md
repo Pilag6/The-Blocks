@@ -35,3 +35,12 @@
 
 
 </div>
+
+<h2>CARDS</h2>
+<div align="center">
+#001
+
+https://user-images.githubusercontent.com/79191808/207362365-d86496bf-485f-43c7-b10d-05bab4c5d3e2.mp4
+
+
+</div>
